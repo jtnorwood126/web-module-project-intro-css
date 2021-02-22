@@ -61,19 +61,14 @@ table {
 	margin: 0 20px; 
   }
 
-nav a {
-	
-}
 
-}
-  
-nav a#plan {
+nav .plan {
 	color: #FF764E;
 }
-nav a#learn {
+nav .learn {
 	color: #5ED3EB;
 }
-body .container a#get {
+nav .get {
 	color: #FFCD69;
 }
   
@@ -87,13 +82,3 @@ h1 {
     width: 100%;
     background: #F9E7DC; 
   }
-
-footer .footer-content a #plan {
-		color: #FF764E;
-	}
-footer .footer-content a #learn {
-		color: #5ED3EB;
-	}
-footer .footer-content a #get {
-		color: #FFCD69;
-	}
