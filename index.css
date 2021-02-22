@@ -55,18 +55,25 @@ table {
 
 
 
-* {
+*, body {
     background: #DDB9A3;
     font-family: 'Roboto Mono', monospace;
+	margin: 0 20px; 
   }
+
+nav a {
+	
+}
+
+}
   
-body .container a #plan {
+nav a#plan {
 	color: #FF764E;
 }
-body .container a #learn {
+nav a#learn {
 	color: #5ED3EB;
 }
-body .container a #get {
+body .container a#get {
 	color: #FFCD69;
 }
   
