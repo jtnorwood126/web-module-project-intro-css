@@ -48,12 +48,10 @@ table {
 }
 
 
+/* It's recommended to move any reset you have to its own file, so you're not starting out with an already gargantuan file to navigate before you've ever written a line of CSS. You can link this reset the same way as you do the main CSS file. Just make sure that the reset is above the main file, so that it gets opened and read (thus applying the reset) first.*/
 
 
-
-
-
-
+/* I'm not sure what's happening here. Universal selector and body will do the same thing, but I don't think either is appropriate. Styling the base elements will cause you no end of conflict in the future, so try to get out of that habit. You need a parent container that wraps the content, add a class to it and then style that. */
 
 *, body {
     background: #DDB9A3;
@@ -82,3 +80,35 @@ h1 {
     width: 100%;
     background: #F9E7DC; 
   }
+
+/* #plan is an ID in CSS. You can only have 1 ID of that specific spelling per page, so here you have 2 different versions of plan, learn, and get. These are incompatible and will not work. Secondary, the specificity of this section isn't necessary. Since you want both the header and the footer links to appear identical, you should style them as such -- the same, using the same bit of code, so as to remain DRY. */
+
+.link_plan {
+    color: #ff764e;
+}
+.link_learn {
+    color: #5ed3eb;
+}
+.link_get {
+    color: #ffcd69;
+}
+
+/* body .container a #plan {
+    color: #ff764e;
+}
+body .container a #learn {
+    color: #5ed3eb;
+}
+body .container a #get {
+    color: #ffcd69;
+} */
+/* 
+footer .footer-content a #plan {
+	color: #ff764e;
+}
+footer .footer-content a #learn {
+	color: #5ed3eb;
+}
+footer .footer-content a #get {
+	color: #ffcd69;
+} */
