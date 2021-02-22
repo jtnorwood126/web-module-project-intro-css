@@ -57,13 +57,35 @@ table {
 
 * {
     background: #DDB9A3;
-    font-family: "Roboto Mono", monospace;
+    font-family: 'Roboto Mono', monospace;
   }
   
+body .container a #plan {
+	color: #FF764E;
+}
+body .container a #learn {
+	color: #5ED3EB;
+}
+body .container a #get {
+	color: #FFCD69;
+}
   
-  
- footer .footer-content {
-	 
+h1 {
+	font-family: 'Chelsea Market', cursive;
+}  
+
+
+ footer {
     width: 100%;
     background: #F9E7DC; 
   }
+
+footer .footer-content a #plan {
+		color: #FF764E;
+	}
+footer .footer-content a #learn {
+		color: #5ED3EB;
+	}
+footer .footer-content a #get {
+		color: #FFCD69;
+	}
