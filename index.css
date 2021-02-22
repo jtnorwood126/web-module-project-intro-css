@@ -62,7 +62,8 @@ table {
   
   
   
-  .footer {
+ footer .footer-content {
+	 
     width: 100%;
     background: #F9E7DC; 
   }
